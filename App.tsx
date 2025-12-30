@@ -15,12 +15,12 @@ const App: React.FC = () => {
         <CodeReduction />
         <Blueprint />
         <SimpleCode />
-        
+
         <footer className="pt-24 pb-12 border-t border-zinc-100 text-[10px] tracking-[0.2em] uppercase font-bold text-zinc-400 flex justify-between items-center">
           <span>auto-server-client</span>
           <div className="flex gap-6">
             <a href="https://github.com" className="hover:text-indigo-600 transition-colors">GitHub</a>
-            <a href="#" className="hover:text-indigo-600 transition-colors">NPM</a>
+            <a href="https://www.npmjs.com/package/auto-server-client" className="hover:text-indigo-600 transition-colors">NPM</a>
           </div>
         </footer>
       </main>
